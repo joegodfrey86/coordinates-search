@@ -14,3 +14,14 @@
 
 ### Navigate to http://localhost:8000 in a browser to use the app.
 ### This app has been tested on the latest version of Chrome browser.
+
+
+#### assumptions made:
+ticket prices are less than 100 dollars.
+
+#### multiple events:
+to modify my application for multiple events I would change my coordinate class to hold an array of events.
+then when I use the usort php function I would modify my custom comparison to cosider each event.
+
+#### larger world:
+I would need to use a relational database & modify some static values in the code to become dynamic
